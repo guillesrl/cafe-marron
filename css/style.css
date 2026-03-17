@@ -753,6 +753,9 @@ section {
   .hero-visual {
     order: 1;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
   }
 
   .hero-image-wrapper {
@@ -843,6 +846,12 @@ section {
   .hero-image-wrapper {
     width: 340px;
     height: 260px;
+  }
+
+  .hero-visual {
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
   }
 
   section {
